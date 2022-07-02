@@ -1,0 +1,19 @@
+body,*{
+    margin: 0;
+}
+nav>ul>li:hover{
+    background-color: yellow;
+}
+.navbar .navbar-nav .nav-item:hover{
+    background-color: yellow !important;
+}
+.carousel-item{
+    
+    height: 800px;
+    flex-wrap: wrap;
+}
+.carousel-caption{
+display: flex;
+align-items: center;
+justify-content: center;
+}

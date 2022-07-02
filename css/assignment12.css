@@ -1,0 +1,70 @@
+body,*{
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+nav>ul{
+    list-style-type: none;
+    margin-left: 200px;
+    position: relative;
+}
+nav>ul>li{
+    float: left;
+    padding: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#submenu{
+    display: none;
+}
+ul li:hover #submenu{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: -200px;
+    right: 0;
+    
+}
+
+.row{
+    
+    width: 100%;
+    display: flex;
+    
+
+}
+.col1{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(28, 124, 86);
+    padding-left: 5px;
+    
+
+
+}
+.col1-1,.col1-2, .col2-1, .col2-2{
+    width: 40%;
+    float: left;
+    height: 400px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.col2{
+    width: 50%;
+    height: 400px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.row ul{
+    list-style-type: none;
+}
+.row ul>li{
+    line-height: 30px;
+}

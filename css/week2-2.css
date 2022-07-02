@@ -1,0 +1,23 @@
+/* External Style*/
+h1{
+    color: chocolate;
+}
+h2{
+    color: purple;
+}
+ul>li{
+    color: goldenrod;
+}
+
+ul li{
+    color: aquamarine;
+}
+ol>li{
+    color: purple;
+}
+p{
+    color: red;
+}
+div>div>p{
+    color: purple;
+}

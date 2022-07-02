@@ -1,0 +1,48 @@
+.body,*{
+    margin: 0;
+}
+.row1 {
+    width: 100%;
+    height: 700px;
+    background-image: url('../image/Picking-out-a-Fitness-Center.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.col1 {
+    width: 35%;
+    height: 200px;
+    background-color: rgba(47, 192, 221, 0.5);
+    position: relative;
+    top: 130px;
+    left: 820px;
+    color: whitesmoke;
+    padding: 15px;
+
+}
+.row2{
+    width: 100%;
+    height: 300px;
+}
+.row2col{
+    width: 28%;
+    height: 300px;
+    float: left;
+    background-color: rgb(41, 134, 205);
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    color: white;
+    padding: 20px;
+}
+.room{
+    float: right;
+}
+.image{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

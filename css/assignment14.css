@@ -1,0 +1,48 @@
+body,*{
+    width: 100%;
+}
+.row1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.row1 .col {
+    width: 14%;
+}
+
+
+@media (min-width:767px) and (max-width:905px) {
+    .row1 .col {
+        width: 15%;
+        background-color: red;
+    }
+}
+
+@media (min-width:753px) and (max-width:767px) {
+    .row1 .col {
+        width: 20%;
+        background-color: red;
+    }
+}
+
+@media (min-width:600px) and (max-width:753px) {
+    .row1 .col {
+        width: 25%;
+    }
+}
+
+@media (min-width:455px) and (max-width:600px) {
+    .row1 .col {
+        width: 30%;
+    }
+}
+
+@media (min-width:200px) and (max-width:455px) {
+    .row1 .col {
+        width: 50%;
+    }
+
+}

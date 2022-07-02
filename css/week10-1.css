@@ -1,0 +1,26 @@
+.even{
+    height: 300px;
+    background-color: beige;
+    color: navy;
+}
+.odd{
+    /* height: 300px; */
+    background-color: navy;
+    color: beige;
+}
+.lieven{
+    color: darkred;
+    font-size: 20px;
+}
+.liodd{
+    color: darkgreen;
+    font-size: 20px;
+}
+.lastdiv{
+    background-color: brown;
+    color: bisque;
+}
+.firstdiv{
+    background-color: darkgreen;
+    color: bisque;
+}

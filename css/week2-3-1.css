@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap');
+@font-face {
+    font-family: 'myfont';
+    src: url('../font/Lora/Lora-Italic-VariableFont_wght.ttf');
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: purple;
+    font-style: italic;
+    text-decoration: underline dashed rebeccapurple;
+    text-transform: capitalize;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: green;
+    text-align: justify;
+    text-indent: 100px;
+    
+}
+h3{
+    font-family:'myfont' ;
+    font-size: 40px;
+}
+
+div>div>p{
+    color: rgb(233, 106, 33);
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+div>div>a{
+    
+    text-transform: capitalize;
+    color: red;
+    
+
+    
+}
+

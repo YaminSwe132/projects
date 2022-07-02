@@ -1,0 +1,44 @@
+/*for extra small*/
+body{
+    background-color: red;
+}
+.box1{
+    background-color: aqua;
+    height: 300px;
+    width: 100%;
+}
+.box2{
+    background-color: brown;
+    height: 300px;
+    width: 100%;
+}
+
+
+/* start from small to large*/
+@media only screen and (min-width:600px){
+    body{
+        background-color: darkgreen;
+    }
+    .box1{
+        float: left;
+        width: 50%;
+    }
+    .box2{
+        float: left;
+        width: 50%;
+    }
+    img{
+        float: left;
+        width: 50%;
+    }
+    p{
+        float: left;
+        margin: 5px;
+        width: 45%;
+    }
+    @media only screen and (max-width:800px){
+        .box1,.box2{
+            height: 500px;
+        }
+    }
+}

@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../font/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+body,*{
+    margin: 0;
+    font-family: 'myfont';
+}
+#row1{
+    background-image: url("../image/images.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.navbar{
+    background-color: black !important;
+    opacity: 0.5;
+    z-index: 5;
+
+}
+#row1::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(#7A39DB, #A0D334);
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#row2 {
+    height: 200px;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    transform: skewY(-3deg);
+    margin-top: -35px;
+}
+#row3{
+    height: 750px;
+    background-color: white;
+    z-index: 5;
+    position: relative;
+    margin-top: -120px;
+}
+#row4{
+    background-image: url("../image/images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 400px;
+    transform: skewY(-3deg);
+    z-index: 7;
+    margin-top: -20px;
+}
+/* .video{
+    background-image: url("../image/images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+#row4::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(#7A39DB, #A0D334);
+    opacity: 0.3;
+    content: "";
+
+}
+#row5{
+    height: 150px;
+    background-color: whitesmoke;
+    z-index: 9;
+    transform: skewY(-3deg);
+    position: relative;
+    margin-top: -50px;
+}
+#row6{
+    height: 500px;
+    background-color: whitesmoke;
+    z-index: 11;
+    position: relative;
+    margin-top: -50px;
+}
+#row7{
+    height: 150px;
+    background-color: rgb(237, 231, 218);
+    z-index: 15;
+    transform: skewY(-3deg);
+    position: relative;
+    margin-top: -50px;
+}
+#row8{
+    height: 850px;
+    background-color: rgb(237, 231, 218);
+    z-index: 17;
+    position: relative;
+    margin-top: -50px;
+}
+#row9{
+    height: 150px;
+    background-color: whitesmoke;
+    z-index: 19;
+    transform: skewY(-3deg);
+    position: relative;
+    margin-top: -80px;
+}
+#row10{
+    height: 480px;
+    background-color: whitesmoke;
+    z-index: 21;
+    position: relative;
+    margin-top: -50px;
+}
+#row11{
+    height: 140px;
+    background-color: aliceblue;
+    z-index: 23;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+#row12{
+    height: 120px;
+    background-color: purple;
+    z-index: 23;
+    opacity: 0.7;
+
+}
+.circle1 .circle-wrap {
+
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+.circle1 .circle-wrap .circle .mask,
+.circle1 .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #eb4334;
+}
+
+.circle1 .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle1 .mask.full,
+.circle1 .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(135deg);
+    }
+}
+
+.circle1 .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #eb4334;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.circle2 .circle-wrap {
+
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+.circle2 .circle-wrap .circle .mask,
+.circle2 .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle2 .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #b434eb;
+}
+
+.circle2 .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle2 .mask.full,
+.circle2 .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(130deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(130deg);
+    }
+}
+
+.circle2 .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #b434eb;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.circle3 .circle-wrap {
+
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+.circle3 .circle-wrap .circle .mask,
+.circle3 .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle3 .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #3474eb;
+}
+
+.circle3 .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle3 .mask.full,
+.circle3 .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(150deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(150deg);
+    }
+}
+
+.circle3 .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #3474eb;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.circle4 .circle-wrap {
+
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+.circle4 .circle-wrap .circle .mask,
+.circle4 .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle4 .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #34ebcc;
+}
+
+.circle4 .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle4 .mask.full,
+.circle4 .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(120deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(120deg);
+    }
+}
+
+.circle4 .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #34ebcc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.circle5 .circle-wrap {
+
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+.circle5 .circle-wrap .circle .mask,
+.circle5 .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle5 .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: orangered;
+}
+
+.circle5 .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle5 .mask.full,
+.circle5 .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(140deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(140deg);
+    }
+}
+
+.circle5 .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: orangered;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}

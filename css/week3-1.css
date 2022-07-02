@@ -1,0 +1,62 @@
+#news{
+    background-color: #b1efb1;
+}
+#activities{
+    background-color: rgb(0, 0, 0,0.5);
+    color: rgb(171, 45, 16);
+}
+h1{
+    color: rgb(47, 42, 42);
+}
+
+#row1{
+    width: 100%;
+    height: 300px;
+    background-color: hsl(250, 70%, 50%,0.5);
+}
+#row2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(4, 57, 4,0.3);
+}
+#row3{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(135, 145, 27);
+    opacity: 0.9;
+}
+#row4{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(120deg,rgb(51, 51, 163),rgb(165, 16, 16));
+}
+#row5{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(150deg,#c9bb71,#ccb647,#c7a912);
+}
+#row6{
+    width: 500px;
+    height: 400px;
+    
+    background: radial-gradient(circle at top left, #c7a912, #312f22 20%);
+}
+#row7{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(45deg,red 0%, red 30%,yellow 30%, yellow 70%,green 70%);
+}
+
+#row8{
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(rgb(114, 14, 14) 20%, rgb(7, 43, 7) 40%, rgb(8, 8, 203) 50%);
+    border-radius: 20px;
+}
+
+.row{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    background: radial-gradient(circle closest-side,#c7a912, #312f22  80%);
+}

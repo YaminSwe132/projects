@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../font/Lora/Lora-VariableFont_wght.ttf');
+}
+body,*{
+    margin: 0;
+    font-family: 'myfont';
+}
+header{
+    height: 660px;
+    font-size: 'myfont';
+}
+
+nav{
+    background: rgba(0, 0, 255, 0.4);
+}
+.bg-image{
+    background-size: 100% 100%; 
+   height: 250px;
+}
+.para{
+    padding-top: 30%;
+    text-align: center;
+    color: white;
+
+}
+.footer_btn{
+    float: right;
+}
+.lastfooter{
+    width: 100% ;
+    height: 80px;
+    background-color: rgb(60, 56, 56);
+}
+.fa-facebook:hover{
+    color: darkblue !important;
+}
+.fa-instagram:hover{
+    color: orangered !important;
+}
+.fa-youtube:hover{
+    color: red !important;
+}
+.fa-twitter:hover{
+    color: darkblue !important;
+}
+.fa-pinterest:hover{
+    color: red !important;
+}

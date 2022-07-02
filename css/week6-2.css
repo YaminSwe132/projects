@@ -1,0 +1,13 @@
+#home{
+    color: brown;
+}
+.carousel-indicators>div{
+    width: 30px;
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: darkblue !important;
+}
+button>span{
+    background-color: darkblue ;
+    border-radius: 50%;
+}

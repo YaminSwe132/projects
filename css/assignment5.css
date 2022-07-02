@@ -1,0 +1,18 @@
+
+p>span{
+    font-weight: bold;
+}
+div>p>span{
+    color: rebeccapurple;
+}
+div>a{
+    text-decoration: none;
+    color: yellow;
+}
+div>p{
+    color: goldenrod;
+}
+div>ul{
+    list-style-type: square;
+}
+

@@ -1,0 +1,30 @@
+p,h2{
+    color: blue;
+}
+div{
+    background-color: yellow;
+}
+div>div>div>h2{
+    color: green;
+}
+p+p{
+    background-color: darkcyan;
+}
+h2+p{
+    background-color: red;
+}
+div+div{
+    background-color: aquamarine;
+}
+p+h2{
+    background-color: blueviolet;
+}
+input[type=text]{
+    background-color: yellow;
+}
+input[type=button]{
+    background-color: greenyellow;
+}
+button{
+    background-color: blueviolet;
+}

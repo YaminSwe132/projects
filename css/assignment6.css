@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Lora:ital,wght@1,400;1,500;1,600&family=Open+Sans:wght@300&family=Pathway+Gothic+One&display=swap');
+@font-face {
+    font-family: 'myfont';
+    src: url('../font/BIZ_UDPMincho\,Lora\,Open_Sans\,Pathway_Gothic_One.zip');
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'myfont';
+}
+h3{
+    text-transform: uppercase;
+    color: rgb(192, 180, 20);
+}
+
+table>p{
+    text-align: justify,left;
+}
+button{
+    background-color: rgb(192, 180, 20);
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+}
+li{
+    line-height: 40px;
+    list-style-type: none;
+}

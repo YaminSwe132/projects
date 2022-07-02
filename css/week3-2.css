@@ -1,0 +1,65 @@
+/*<img{
+    float: left;
+}*/
+.col1{
+    float: left;
+    width: 30%;
+}
+.col2{
+    width: 70%;
+}
+.col3{
+    clear: left;
+}
+.col{
+    float: left;
+    width: 23%;
+    border: 2px solid red;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+body{
+    background-color: aqua;
+    margin: 0;
+}
+.row{
+    clear: both;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+   }
+.row1c1{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border: 2px solid red;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.row> .second{
+    width: 65%;
+}
+
+.yarpyae3{
+    float:left;
+    width: 32%;
+    border: 2px solid darkgreen;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.row2y3{
+    border: 2px solid red;
+    height: 140px;
+    margin-top: 5px;
+}
+.innermost{
+    padding: 20px;
+}

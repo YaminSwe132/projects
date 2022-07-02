@@ -1,0 +1,12 @@
+.liitem{
+    color: brown;
+    font-size: 15px;
+}
+.lieven:hover{
+    color: darkblue;
+    font-size: 35px;
+}
+.liodd:hover{
+    color: darkgreen;
+    font-size: 35px;
+}
