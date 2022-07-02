@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment19</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/assignment19.css">
+</head>
+<body>
+<div class="container">
+    <button class="btn btn-outline-success" data-bs-target="#slide" data-bs-toggle="modal">Click</button>
+    <div class="modal" id="slide" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Carousel Slide</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="carousel slide" data-bs-ride="carousel" id="myslide">
+                        <div class="carousel-indicators">
+                            <button class="active" data-bs-target="#myslide" data-bs-slide-to="0"></button>
+                            <button data-bs-target="#myslide" data-bs-slide-to="1"></button>
+                            <button data-bs-target="#myslide" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="image/image1.png" class="w-100" height="500px">
+                                    </div>
+                                    <div class="col-6">
+                                        <h1>Slide1</h1>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt quia voluptates at neque aperiam maiores illo obcaecati nobis a! Assumenda quidem pariatur ab modi ipsum velit dicta voluptates nostrum minima!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="image/image2.png" class="w-100" height="500px">
+                                    </div>
+                                    <div class="col-6">
+                                        <h1>Slide2</h1>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, expedita eum minus nesciunt a similique iusto atque provident. Repudiandae repellendus eveniet velit minus suscipit tempora illum eos, molestias cum recusandae.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="image/image1.png" class="w-100" height="500px">
+                                    </div>
+                                    <div class="col-6">
+                                        <h1>Slide3</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum exercitationem repellat reiciendis nihil, consequatur commodi sequi animi quis incidunt ducimus. Voluptatum magnam repudiandae assumenda quas ratione consequuntur quia, at nemo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev "data-bs-target="#myslide" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#myslide" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week7-3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/week7-3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <button class="btn btn-outline-success" data-bs-target="#sidebar" data-bs-toggle="offcanvas">Side Bar Button</button>
+                <div class="offcanvas offcanvas-start " id="sidebar" data-bs-scroll="true" data-bs-backdrop="false">
+                    <div class="offcanvas-header">
+                        <h2 class="offcanvas-title">Explorer</h2>
+                        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa corrupti ad amet optio alias voluptate, exercitationem voluptas quibusdam eos ullam placeat tempore voluptates veniam facilis non voluptatibus blanditiis, omnis odio.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat cum quod corporis dignissimos sit magni debitis hic consequatur id quaerat illum et mollitia, aspernatur deleniti qui minus, dolor tempore.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia vero commodi sed alias, veritatis est maxime consectetur. Labore est officiis ipsa officia. Quis quo nihil necessitatibus? Beatae, quibusdam molestiae. Unde?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nemo delectus repudiandae facilis quaerat perferendis aut accusamus recusandae ducimus magnam alias adipisci, itaque totam distinctio quibusdam animi ea, sequi corrupti?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, optio corrupti? Veritatis sunt, nihil, temporibus necessitatibus neque ducimus doloribus reiciendis exercitationem architecto natus vitae expedita facere eveniet ut esse blanditiis!</p>
+                        <button class="btn btn-primary">Click </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt voluptatibus aut doloremque enim voluptas, magnam porro necessitatibus, sit maxime ex quos fugit cupiditate magni accusamus sequi. Eius, sed error!
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ea corrupti quam animi aliquam ab accusamus tempora deserunt dignissimos consequatur sed veritatis quo libero, laudantium aliquid rerum unde a praesentium.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti quaerat, doloremque harum, culpa animi fugiat dolorum mollitia, nostrum sed iure tenetur earum sit reprehenderit eaque corporis repudiandae necessitatibus aliquid rem!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad deserunt in laboriosam quam numquam, cupiditate commodi dolorem quis pariatur quasi cum facilis fugit, deleniti ullam veniam voluptates! Fugiat, corporis nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt architecto beatae obcaecati eveniet dicta ut deleniti quisquam, veritatis esse, eos assumenda voluptatum maiores placeat. Aliquid totam nobis repudiandae sed similique.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste nam, sed aliquam quae molestias consequatur in non distinctio enim corporis rerum beatae id eum, delectus quam dolor repellendus accusantium laudantium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi ratione quam autem soluta, explicabo sint aliquid, ea cupiditate obcaecati assumenda inventore quibusdam distinctio aspernatur voluptate voluptatem doloribus facere earum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, enim. Odio magnam numquam quam non, consequatur odit maxime mollitia modi. Facilis quas eum consequatur explicabo? Sit minima repellendus in corporis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facere voluptate labore temporibus eius voluptas unde, omnis obcaecati? Repellendus ex alias omnis quo magnam inventore sunt minus aliquam possimus est!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit explicabo modi adipisci nulla expedita tempore, facilis, soluta maxime animi laboriosam repudiandae iusto molestiae. Impedit, alias sed. Nisi accusamus nesciunt facilis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit temporibus ullam illo voluptas magni praesentium qui enim, obcaecati quia eum deleniti aliquam? Est dicta magnam accusantium labore obcaecati totam voluptas?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit pariatur modi est sint, voluptas itaque necessitatibus error atque ut repellendus molestiae maxime ad reiciendis dignissimos illo magnam consequuntur impedit dolore.</p>
+            </div>
+        </div>
+
+
+        <!-- for popover -->
+        <div class="row mt-5 mb-5">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <button class="btn btn-outline-success " data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Top popover" data-bs-container="body">Popover</button>
+            </div>
+            
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-12"></div>
+        </div>
+
+
+
+        <!-- for progress bar -->
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width: 70%;">
+                        Front End Development 70%
+                    </div>
+                </div>
+                <div class="progress mt-3">
+                    <div class="progress-bar bg-success" style="width: 70%;">
+                        Front End Development 70%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- for toast -->
+        <div class="row mb-5">
+            <button class="btn btn-primary" data-bs-target="#mytoast" id="ToastBtn">Click Here</button>
+            <div class="toast-container position-fixed top-0 end-0" >
+                <div class="toast" id="mytoast" >
+                    <div class="toast-header">
+                        
+                        <h2>Toast</h2>
+                        <button class="btn-close" data-bs-dismiss="toast"></button>
+                    </div>
+                    <div class="toast-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam enim veniam harum maiores nostrum repudiandae iusto assumenda. Sapiente culpa eos maxime facere eaque explicabo distinctio molestiae repellendus corporis. Ullam, tempora?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- for tooltips -->
+        <div class="row mt-5 mb-5">
+            <button class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="bottom" title="top-tooltip">Tooltips</button>
+        </div>
+
+        
+
+
+
+    </div>
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/week7-3.js"></script>
+</body>
+</html>

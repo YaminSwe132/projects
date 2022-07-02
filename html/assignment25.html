@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment25</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/assignment25.css">
+</head>
+<body>
+    <div class="container">
+        <div class=" p-5" id="row1">
+            <div class="row mt-3">
+                <div class="col-3">
+                    <label for="startWeight">StartWeight</label>
+                </div>
+                <div class="col-9">
+                    <input type="number" name="startWeight" id="startWeight" value="110">lbs
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-3">
+                    <label for="currentWeight">CurrentWeight</label>
+                </div>
+                <div class="col-9">
+                    <input type="number" name="currentWeight" id="currentWeight" value="100">lbs
+                </div>
+            </div>
+            <div class="mt-3">
+                <button class="btn btn-outline-success" type="submit" id="claculate">Calculate</button>
+                <button class="btn btn-outline-primary" type="reset" id="reset">Reset</button>
+            </div>
+        </div>
+        <div class="p-5 " id="row2">
+            <h5>Result</h5>
+            <p>Weight Loss Percent:&nbsp;&nbsp;<span id="weightLoss"></span></p>
+            <p>Total Weight&nbsp;&nbsp; <span id="totalWeight"></span></p>
+            <table class="table" id="table">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="text-center">Saved Calculation</th>
+                    </tr>
+                    
+                    <tr>
+                        <th rowspan="2" class="text-center text-align-center">#</th>
+                        <th colspan="2">StartWeight</th>
+                        <th colspan="2">CurrentWeight</th>
+                        <th colspan="2">Loss/Gain</th>
+                    </tr>
+                    <tr>
+                        <th>Imperial</th>
+                        <th>Metrics</th>
+                        <th>Imperial</th>
+                        <th>Metrics</th>
+                        <th>Pct</th>
+                        <th>Ttl</th>
+                    </tr>
+                        
+                        
+                       
+                    
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/assignment25.js"></script>
+</body>
+</html>
