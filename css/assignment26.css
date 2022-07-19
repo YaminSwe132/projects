@@ -1,0 +1,113 @@
+boyd,*{
+    margin: 0;
+}
+:root{
+    --primary_color: #f26411;
+    --secondary_color: #000;
+}
+header{
+    height: 100vh;
+    background:linear-gradient(
+        30deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0.5)
+    ), url('../image/home1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    background-color: white;
+    padding: 20px;
+}
+.bg-color{
+    background: var(--primary_color);
+
+}
+.text-color{
+    color: var(--primary_color);
+}
+.nav-link{
+    color: var(--secondary_color);
+    font-size: 16px;
+}
+.nav-link:hover{
+    color: var(--primary_color);
+}
+.navbar-brand{
+    color: var(--secondary_color);
+}
+.navbar-brand :hover{
+    color: var(--primary_color) !important;
+}
+.box{
+    background-color: rgba(191, 183, 178,0.5);
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    z-index: 3;
+}
+@media (max-width:990px){
+    .box{
+        top: 40%;
+        left: 20%;
+    }
+}
+#section1{
+    
+    position: relative;
+    margin-top: -80px;
+    z-index: 5;
+}
+
+.icon{
+    color: var(--primary_color);
+    font-size: 30px;
+}
+.title{
+    color: var(--secondary_color);
+
+}
+.col{
+    background-color:rgb(151, 151, 170);
+    
+   
+}
+
+
+.btnLink{
+    text-decoration: none;
+    color: #f26411;
+}
+#section3{
+    /* height: 700px; */
+    background-color: beige ;
+}
+.agent_icon{
+    font-size: 20px;
+}
+
+#section5{
+    
+    /* background-color: rgb(13, 13, 46); */
+    background: linear-gradient(
+        rgba(0,0,0),
+        rgba(13,13,46,0.6)
+    ),url('../image/home6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.dream{
+    z-index: 20;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary_color);
+}
